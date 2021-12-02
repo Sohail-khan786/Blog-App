@@ -1,12 +1,9 @@
-import DeleteIcon from "@mui/icons-material/Delete";
-import { Button } from "@mui/material";
+import NavBar from "./components/Navbar/NavBar";
 
 function App() {
   return (
     <div>
-      <Button variant="contained" endIcon={<DeleteIcon />}>
-        Material Ui
-      </Button>
+      <NavBar />
     </div>
   );
 }
