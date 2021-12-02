@@ -3,15 +3,9 @@ import Box from "@mui/material/Box";
 import { AppBar, Avatar, Badge, Toolbar } from "@mui/material";
 import MenuIcon from "@mui/icons-material/Menu";
 import IconButton from "@mui/material/IconButton";
-import CloseIcon from "@mui/icons-material/Close";
 import Typography from "@mui/material/Typography";
 import SearchIcon from "@mui/icons-material/Search";
-import {
-  Search,
-  SearchIconWrapper,
-  StyledInputBase,
-  BadgeWrapper,
-} from "./styles";
+import { Search, SearchIconWrapper, StyledInputBase } from "./styles";
 import { Mail, Notifications } from "@mui/icons-material";
 
 export default function NavBar() {
