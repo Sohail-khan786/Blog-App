@@ -11,7 +11,7 @@ import { Mail, Notifications } from "@mui/icons-material";
 export default function NavBar() {
   return (
     <Box sx={{ flexGrow: 1 }}>
-      <AppBar>
+      <AppBar position="static">
         <Toolbar
           sx={{
             display: "flex",
