@@ -12,10 +12,10 @@ function App() {
         <Grid item xs={2}>
           <LeftBar />
         </Grid>
-        <Grid item xs={7}>
+        <Grid item xs={10} sm={7}>
           <Feed />
         </Grid>
-        <Grid item xs={3}>
+        <Grid item xs={0} md={3}>
           <RightBar />
         </Grid>
       </Grid>

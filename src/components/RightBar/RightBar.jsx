@@ -1,5 +1,6 @@
 import React from "react";
+import { RightBarContainer } from "./styles";
 
 export default function RightBar() {
-  return <h1>rightbar</h1>;
+  return <RightBarContainer>rightbar</RightBarContainer>;
 }
