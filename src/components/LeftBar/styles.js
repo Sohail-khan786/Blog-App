@@ -5,7 +5,6 @@ export const ItemWrapper = styled("div")(({ theme }) => ({
   display: "flex",
   justifyContent: "flex-start",
   margin: theme.spacing(3),
-
   cursor: "pointer",
   paddingTop: theme.spacing(1),
   alignItems: "center",
@@ -28,6 +27,8 @@ export const LeftBarContainer = styled("div")(({ theme }) => ({
   paddingTop: theme.spacing(10),
   color: "white",
   height: "100vh",
+  position: "sticky",
+  top: "0",
   [theme.breakpoints.up("sm")]: {
     backgroundColor: "white",
     color: "#555",
