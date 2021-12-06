@@ -29,7 +29,7 @@ export const AddUtility = () => {
     <>
       <SpeedDial
         ariaLabel="SpeedDial basic example"
-        sx={{ position: "absolute", bottom: 32, right: 32 }}
+        sx={{ position: "absolute", bottom: 32, right: 32, zIndex: 2 }}
         icon={<SpeedDialIcon />}
       >
         {actions.map((action) => (

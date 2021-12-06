@@ -1,4 +1,4 @@
-import { Button, Grid, Tooltip } from "@mui/material";
+import { Grid } from "@mui/material";
 import Feed from "./components/Feed/Feed";
 import LeftBar from "./components/LeftBar/LeftBar";
 import NavBar from "./components/Navbar/NavBar";

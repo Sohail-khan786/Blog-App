@@ -1,5 +1,4 @@
-import { styled, alpha } from "@mui/material/styles";
-import { border, fontSize } from "@mui/system";
+import { styled } from "@mui/material/styles";
 
 export const ItemWrapper = styled("div")(({ theme }) => ({
   display: "flex",
