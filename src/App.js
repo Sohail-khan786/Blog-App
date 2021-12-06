@@ -15,7 +15,17 @@ function App() {
         <Grid item xs={10} sm={7}>
           <Feed />
         </Grid>
-        <Grid item xs={0} md={3}>
+        <Grid
+          item
+          sx={{
+            display: {
+              xs: "none",
+              sm: "none",
+              md: "block",
+            },
+          }}
+          md={3}
+        >
           <RightBar />
         </Grid>
       </Grid>
