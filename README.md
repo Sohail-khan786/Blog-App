@@ -8,3 +8,4 @@ React App for practice of Material-UI Design System
     2. npm install
     3. npm start
     4. 4th point from feat/testing
+    5. 4th point from feat/documentation
