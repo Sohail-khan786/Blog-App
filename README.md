@@ -7,4 +7,5 @@ React App for practice of Material-UI Design System
     1. Install Node JS version higher than 6
     2. npm install
     3. npm start
-    4. 4th point from feat/documentation
+    4. 4th point from feat/testing
+    5. 4th point from feat/documentation
